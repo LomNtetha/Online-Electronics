@@ -49,7 +49,7 @@
 								<ul class="footer-links">
 									<li><a href="#"><i class="fa fa-map-marker"></i>Down Town Maseru 100</a></li>
 									<li><a href="#"><i class="fa fa-phone"></i>+266-5089-9604</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>admin@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>ntethalumkile@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -110,7 +110,7 @@
 							
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;DevTech  <script>document.write(new Date().getFullYear());</script> All rights reserved | This System is made with <i class="fas fa-heart" aria-hidden="true"></i> by Lomkile Ntetha,Tumelo Mokobocho, Tumisang Ngatane
+								Copyright &copy;xyz Tech <script>document.write(new Date().getFullYear());</script> All rights reserved | This System is made with <i class="fas fa-heart" aria-hidden="true"></i> by Lumkile Ntetha
 						
 							</span>
 						</div>

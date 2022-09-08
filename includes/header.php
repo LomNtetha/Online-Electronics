@@ -26,7 +26,7 @@
 				<div class="container">
 					<ul class="header-links pull-left">
 						<li><a href="#"><i class="fa fa-phone"></i> +266-5089-9604</a></li>
-						<li><a href="#"><i class="fas fa-envelope"></i> admin@gmail.com</a></li>
+						<li><a href="#"><i class="fas fa-envelope"></i> ntethalumkile@gmail.com</a></li>
 						<li><a href="#"><i class="fa fa-map-marker"></i>Down Town Maseru 100</a></li>
 					</ul>
 				
@@ -82,7 +82,7 @@
 							<div class="header-logo">
 								<ul class="header-links pull-left">
 
-								<li><h1><a href="#"><b>DevTech</b></a></h1></li>
+								<li><h1><a href="#"><b>xyz Tech</b></a></h1></li>
 								<li><i class="fa fa-dot-circle-o" aria-hidden="true"></i></li>
 					</ul>
 							</div>

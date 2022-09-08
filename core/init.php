@@ -5,7 +5,10 @@ include_once 'classes/user.php';
 
 
 global $pdo;
-session_start();
+//session_start();
+if( empty(session_id()) && !headers_sent()){
+    session_start();
+}
 
 $getFromU = new User($pdo);
 
