@@ -6,8 +6,8 @@
 
 - 2.create database electronics
 - 3.import file electronics.sql
-## project is live and running on 00webhosting
-The system is running and hosted on 000webhostng.
+## project is live and running on 000webhost
+The system is running and hosted on 000webhost.
 ## step 2
 ### Customer panel
 - 1.on the the browser enter: https://lodetxelectronics.000webhostapp.com/
