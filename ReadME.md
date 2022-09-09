@@ -23,4 +23,4 @@ The system is running and hosted on 000webhost.
 - Password: admin123
 
 ## How to hotst the php project on 000webhosting
-- the documentation is comming soon
+- 
