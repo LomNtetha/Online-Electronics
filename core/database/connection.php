@@ -1,9 +1,13 @@
 <?php
 
-	$host = "localhost";
-	$user = "root";
-	$password = "";
-	$dbname = "electronics";
+	#$host = "localhost";
+	#$user = "root";
+	#$password = "";
+	#$dbname = "electronics";
+	$host = "https://lodetxelectronics.000webhostapp.com/";
+	$user = "id19536743_root";
+	$password = "Limkokwing@20";
+	$dbname = "id19536743_electronics";
 
 	$dsn = "mysql:host=". $host . "; dbname=". $dbname;
 
