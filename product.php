@@ -243,7 +243,7 @@
 						    		$p_id = $_POST['product_id'];
 						    		$ip_add = $getFromU->getRealUserIp();
 						    		$product_qty = $_POST['product_qty'];
-						    		$product_size = $_POST['product_size'];
+						    		//$product_size = $_POST['product_size'];
 
 						    		$get_product = $getFromU->view_Product_By_Product_ID($p_id);
 						    		$product_price = $get_product->product_price;

@@ -101,7 +101,7 @@
 					  		$c_image_tmp = $_FILES['c_image']['tmp_name'];
 
 					  		$c_ip = $getFromU->getRealUserIp();
-
+/*
 					  		$secret = '6LeQlHYUAAAAAINHxB4boa6a_oPbYhJeRBwyQ2Bu';
 					  		$response = $_POST['g-recaptcha-response'];
 					  		$remoteip = $_SERVER['REMOTE_ADDR'];
@@ -109,7 +109,7 @@
 					  		$result = json_decode($url, true);
 
 					  		if ($result['success'] == 1) {
-
+*/
 					  			$check_customer = $getFromU->check_customer_by_email($c_email);
 
 						  		if ($check_customer === true) {
@@ -152,9 +152,9 @@
 						  				}
 						  			}
 						  		}
-					  		} else{
+					  		/*} else{
 					  			echo '<script>alert("Please Select Re-Capcha")</script>';
-					  		}
+					  		}*/
 
 					  	}
 					  ?>
@@ -299,11 +299,11 @@
 								</div>
 						  </div>
 
-						  <div class="form-row">
+						 <!-- <div class="form-row">
 						
 						      <div class="g-recaptcha" data-sitekey="6LeQlHYUAAAAAI2t81Q3myw4fefWMyiPJ5PpY3q0"></div>
 						    
-						  </div>
+						  </div>-->
 
 						  <div class="row">
 						  	<div class="col-lg-4 offset-lg-4">

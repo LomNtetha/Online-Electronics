@@ -1,15 +1,17 @@
+
 <?php
 	if (isset($_POST['login'])) {
-		$customer_email = $_POST['c_email'];
-		$customer_pass = $_POST['c_pass'];
+		$customer_email = $_POST['customer_email'];
+		$customer_pass = $_POST['customer_pass'];
+		
 
-	$secret = '6LeQlHYUAAAAAINHxB4boa6a_oPbYhJeRBwyQ2Bu';
-					  		$response = $_POST['g-recaptcha-response'];
-					  		$remoteip = $_SERVER['REMOTE_ADDR'];
-					  		$url = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response&remoteip=$remoteip");
-					  		$result = json_decode($url, true);
+		if (!empty($customer_email) && !empty($customer_pass)) {
 
-					  		if ($result['success'] == 1) {
+            if (!filter_var($customer_email, FILTER_VALIDATE_EMAIL)) {
+                $error = "Invaild Email Address";
+            }elseif (strlen($customer_pass) < 5) {
+                $error = "Password can't not be less than 5 Characters";
+            }else{
 
 		$login = $getFromU->login($customer_email, $customer_pass);
 		if ($login === false) {
@@ -18,10 +20,7 @@
 			$_SESSION['login_success_msg'] = "You have Successfully Login";
 		}
 	}
-
- else{
-					  			echo '<script>alert("Please Select Re-Captcha")</script>';
-					  		}
+}
 }
 ?>
 
@@ -43,65 +42,77 @@
 				</div>
 	    <?php endif ?>
 
-
-	    <form method="post" class="needs-validation" novalidate>
-			  <div class="form-row">
-			    <div class="col-12 mb-3">
-			      <label for="email" class="font-weight-bold">Email</label>
-			      <input type="email" name="c_email" class="form-control" id="email" placeholder="Enter Your Email" required>
-			      <div class="invalid-feedback">
-			        Please provide a valid Email Address.
-			      </div>
-			    </div>
-			  </div>
-			  <div class="form-row">
-			    <div class="col-12 mb-3">
-			      <label for="password" class="font-weight-bold">Password</label>
-			      <input type="password" name="c_pass" class="form-control" id="password" placeholder="Enter Your Password" required>
-			      <div class="invalid-feedback">
-			        Please provide a Password.
-			      </div>
-			    </div>
-			  </div>
-<div class="form-row p-3">
-						
-						      <div class="g-recaptcha" data-sitekey="6LeQlHYUAAAAAI2t81Q3myw4fefWMyiPJ5PpY3q0"></div>
-						    
-						  </div>
-			  <div class="row">
-
-			  	<div class="col-lg-4 offset-lg-4">
-			  		<button class="btn btn-info form-control" name="login" type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
-			  	</div>
-
-			  	<div class="col-md-2 offset-md-2">
-						<a href="forgot_password.php" class="btn btn-sm btn-danger">Forgot Password?</a>
-			  	</div>
-			  </div>
-			</form>
+		<form id="login-form" action="login.php" method="post" class="rounded">
+            <h2 class="login-title">Log in</h2>
+            <?php if (isset($error)): ?>
+                <div class="alert alert-danger text-center text-white alert-dismissible fade show" role="alert">
+                  <?php echo $error; ?>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+            <?php endif ?>
+            <div class="form-group">
+                <div class="input-group-icon right">
+                    <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                    <input class="form-control" type="email" name="customer_email" placeholder="Email" autocomplete="off">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group-icon right">
+                    <div class="input-icon"><i class="fa fa-lock font-16"></i></div>
+                    <input class="form-control" type="password" name="customer_pass" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group d-flex justify-content-between">
+                <label class="ui-checkbox ui-checkbox-info">
+                    <input type="checkbox">
+                    <span class="input-span"></span>Remember me</label>
+                <a href="forgot_password.php">Forgot password?</a>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-info btn-block" type="submit" name="login">Login</button>
+            </div>
+            
+            <div class="text-center social-auth m-b-20">
+			<div class="social-auth-hr">
+                <span>Or login with</span>
+            </div>
+                <a class="btn btn-social-icon btn-twitter m-r-5" href="javascript:;"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-facebook m-r-5" href="javascript:;"><i class="fab fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-google m-r-5" href="javascript:;"><i class="fab fa-google-plus"></i></a>
+                <a class="btn btn-social-icon btn-linkedin m-r-5" href="javascript:;"><i class="fab fa-linkedin"></i></a>
+            
+            </div>
+            <div class="text-center">Not a member?
+                <a class="color-blue" href="register.php">Create accaunt</a>
+            </div>
+        </form>
 
 			<a href="customer_register.php">New ? Register Here</a>
 
-			<script>
-				// Example starter JavaScript for disabling form submissions if there are invalid fields
-				(function() {
-				  'use strict';
-				  window.addEventListener('load', function() {
-				    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-				    var forms = document.getElementsByClassName('needs-validation');
-				    // Loop over them and prevent submission
-				    var validation = Array.prototype.filter.call(forms, function(form) {
-				      form.addEventListener('submit', function(event) {
-				        if (form.checkValidity() === false) {
-				          event.preventDefault();
-				          event.stopPropagation();
-				        }
-				        form.classList.add('was-validated');
-				      }, false);
-				    });
-				  }, false);
-				})();
-			</script>
+			<script type="text/javascript">
+        $(function() {
+            $('#login-form').validate({
+                errorClass: "help-block",
+                rules: {
+                    admin_email: {
+                        required: true,
+                        email: true
+                    },
+                    admin_pass: {
+                        required: true
+                    }
+                },
+                highlight: function(e) {
+                    $(e).closest(".form-group").addClass("has-error")
+                },
+                unhighlight: function(e) {
+                    $(e).closest(".form-group").removeClass("has-error")
+                },
+            });
+        });
+    </script>
     </div>
   </div>
 </div>

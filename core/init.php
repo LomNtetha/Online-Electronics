@@ -13,8 +13,4 @@ if( empty(session_id()) && !headers_sent()){
 $getFromU = new User($pdo);
 
 define('BASE_URL', 'http://localhost/Electronics/');
-
-
-
-
 ?>
