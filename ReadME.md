@@ -1,4 +1,6 @@
-# how to Use The system
+# maintenance announcement
+The system is still experiencing some issues due to php session. This system is working very well on localhost but now on 00webhost gives some errors caused by session. 
+
 ## step 1:
 ### start Xampp apache and mysql
 - 1.on xampp folder, past Electronics floder on htdocs folder
