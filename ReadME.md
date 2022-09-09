@@ -1,5 +1,6 @@
+ https://lodetxelectronics.000webhostapp.com
 # maintenance announcement
-The system is still experiencing some issues due to php session. This system is working very well on localhost but now on 00webhost gives some errors caused by session. 
+The system is still experiencing some issues due to php session. This system is working very well on localhost but now on 00webhost gives some errors caused by session. I hope i will find solution very soon
 
 ## step 1:
 ### start Xampp apache and mysql
