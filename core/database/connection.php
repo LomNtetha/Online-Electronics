@@ -4,7 +4,7 @@
 	#$user = "root";
 	#$password = "";
 	#$dbname = "electronics";
-	$host = "https://lodetxelectronics.000webhostapp.com/";
+	$host = "000webhost.com";
 	$user = "id19536743_root";
 	$password = "Limkokwing@20";
 	$dbname = "id19536743_electronics";
