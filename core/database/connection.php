@@ -1,13 +1,13 @@
 <?php
-
-	#$host = "localhost";
-	#$user = "root";
-	#$password = "";
-	#$dbname = "electronics";
-	$host = "000webhost.com";
+	$host = "localhost";
+	$user = "root";
+	$password = "";
+	$dbname = "electronics";
+	/*
+	$host = "localhost";
 	$user = "id19536743_root";
 	$password = "Limkokwing@20";
-	$dbname = "id19536743_electronics";
+	$dbname = "id19536743_electronics";*/
 
 	$dsn = "mysql:host=". $host . "; dbname=". $dbname;
 
