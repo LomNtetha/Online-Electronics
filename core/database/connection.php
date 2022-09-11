@@ -3,11 +3,6 @@
 	$user = "root";
 	$password = "";
 	$dbname = "electronics";
-	/*
-	$host = "localhost";
-	$user = "id19536743_root";
-	$password = "Limkokwing@20";
-	$dbname = "id19536743_electronics";*/
 
 	$dsn = "mysql:host=". $host . "; dbname=". $dbname;
 
