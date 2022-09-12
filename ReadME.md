@@ -36,8 +36,12 @@ The system is running and hosted on 000webhost.
 
 After the file has been uploaded we will need to extract the zip file
 ### how to Extract the project
+#### 1st Method
 - Right click on the project file
 - select extract and name the destination folder as . so that they can be on public_html folder
 - the file will be extracting to the public_html
 
 if the folder or not on public_html won't work, Make sure that your file and folder are moved to pblic_html.
+
+#### 2nd Method
+- Download unzipper here: https://github.com/ndeet/unzipper
