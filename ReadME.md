@@ -25,5 +25,12 @@ The system is running and hosted on 000webhost.
 - Email: admin@gmail.com
 - Password: admin123
 
-## How to hotst the php project on 000webhosting
+## How to hotst the php project on 000webhost
+- create a webhost account here:https://www.000webhost.com/
+- verify you account
+- create click create first website or build website
+- go to Website Manager then click File Manager
+- zip your project and upload it as a zip file
+- click on Upload your files button
+- make sure that your zip file is in public_html folder
 - 
