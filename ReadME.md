@@ -33,9 +33,11 @@ The system is running and hosted on 000webhost.
 - zip your project and upload it as a zip file
 - click on Upload your files button
 - make sure that your zip file is in public_html folder
+
 After the file has been uploaded we will need to extract the zip file
 ### how to Extract the project
 - Right click on the project file
 - select extract and name the destination folder as . so that they can be on public_html folder
 - the file will be extracting to the public_html
+
 if the folder or not on public_html won't work, Make sure that your file and folder are moved to pblic_html.
