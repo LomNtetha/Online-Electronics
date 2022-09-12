@@ -45,3 +45,12 @@ if the folder or not on public_html won't work, Make sure that your file and fol
 
 #### 2nd Method
 - Download unzipper here: https://github.com/ndeet/unzipper
+
+## How to connect to database
+- go to Website Manager, then click Database Manager
+- Then enter your Database Name, Database Username, and Password
+- Manage database using phpmyadmin
+- go to Import. In here, upload your SQL dump
+- Then, go to your public_html folder->core->database
+- open the file and edit database name,password and username(host:localhost)
+- save and close the editor then refresh the site it must be working correctly.
