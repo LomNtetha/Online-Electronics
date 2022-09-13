@@ -26,6 +26,21 @@ The system is still experiencing some issues due to php session. This system is 
 
 - Customer profile
 ![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(246).png?raw=true)
+
+## How to manage products, orders and customers on admin Panel(demonstration by Screenshots)
+- This is admin panel dashboard landing page after login
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(252).png?raw=true)
+
+- This is products list in tables, you can search ,delete, update and create products
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(253).png?raw=true)
+
+- create products
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(254).png?raw=true)
+
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(255).png?raw=true)
+
+
+
 ## step 1:
 ### start Xampp apache and mysql
 - 1.on xampp folder, past Electronics floder on htdocs folder
