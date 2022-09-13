@@ -12,6 +12,9 @@ The system is still experiencing some issues due to php session. This system is 
 - Review products photos, Description, features, customers reviews and add the products to card or whishlist
 ![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(232).png?raw=true)
 
+- click on the cart to see total number of products added. (Cart shows total number of products added NOT total number of items added)
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(234).png?raw=true)
+
 
 ## step 1:
 ### start Xampp apache and mysql
