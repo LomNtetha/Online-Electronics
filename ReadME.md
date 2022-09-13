@@ -21,6 +21,11 @@ The system is still experiencing some issues due to php session. This system is 
 - fill billing address and Select method of payment
 ![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(242).png?raw=true)
 
+- if I select paypal this how it goes
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(243).png?raw=true)
+
+- Customer profile
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(246).png?raw=true)
 ## step 1:
 ### start Xampp apache and mysql
 - 1.on xampp folder, past Electronics floder on htdocs folder
