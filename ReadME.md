@@ -25,6 +25,10 @@ The system is running and hosted on 000webhost.
 - Email: admin@gmail.com
 - Password: admin123
 
+## Prject Screenshots
+- The client site landing page
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(229).png?raw=true)
+
 ## How to hotst the php project on 000webhost
 - create a webhost account here:https://www.000webhost.com/
 - verify you account
