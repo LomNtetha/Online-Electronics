@@ -15,6 +15,11 @@ The system is still experiencing some issues due to php session. This system is 
 - click on the cart to see total number of products added. (Cart shows total number of products added NOT total number of items added)
 ![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(234).png?raw=true)
 
+- Click proceed to checkout 
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(236).png?raw=true)
+
+- fill billing address and Select method of payment
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(242).png?raw=true)
 
 ## step 1:
 ### start Xampp apache and mysql
