@@ -2,6 +2,14 @@
 # maintenance announcement
 The system is still experiencing some issues due to php session. This system is working very well on localhost but now on 00webhost gives some errors caused by session. I hope i will find solution very soon
 
+## How to buy products online (demonstration by Screenshots)
+- The client site landing page
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(229).png?raw=true)
+
+- click on products you wish to buy
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(230).png?raw=true)
+
+
 ## step 1:
 ### start Xampp apache and mysql
 - 1.on xampp folder, past Electronics floder on htdocs folder
@@ -24,10 +32,6 @@ The system is running and hosted on 000webhost.
 - admin creditials
 - Email: admin@gmail.com
 - Password: admin123
-
-## Prject Screenshots
-- The client site landing page
-![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(229).png?raw=true)
 
 ## How to hotst the php project on 000webhost
 - create a webhost account here:https://www.000webhost.com/
