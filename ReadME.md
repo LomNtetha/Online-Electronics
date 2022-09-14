@@ -1,6 +1,8 @@
+# Electonics Mangement E-commerce System
+This is an online e-commerce system that sell an accessories
  https://lodetxelectronics.000webhostapp.com
 # maintenance announcement
-The system is still experiencing some issues due to php session. This system is working very well on localhost but now on 00webhost gives some errors caused by session. I hope i will find solution very soon
+The system is still experiencing some issues due to php session. This system is working very well on localhost but now on 000webhost gives some errors caused by session. I hope i will find solution very soon
 
 ## How to buy products online (demonstration by Screenshots)
 - The client site landing page
