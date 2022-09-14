@@ -84,6 +84,12 @@ if the folder or not on public_html won't work, Make sure that your file and fol
 
 #### 2nd Method
 - Download unzipper here: https://github.com/ndeet/unzipper
+- Excract the folder on your local machine
+- Upload unzipper files in public_html folder
+- fter uploading all the files…you just need to visit yoursite.com/unzipper.php 
+- Now Select the zip and click “Unzip Archive”
+- you can visit your public_html folder, your files are now extracted.
+- you can delete unzipper files and your unzip folder
 
 ## How to connect to database
 - go to Website Manager, then click Database Manager
