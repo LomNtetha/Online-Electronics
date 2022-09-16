@@ -16,6 +16,10 @@ The system is still experiencing some issues due to php session. This system is 
 - click on products you wish to buy
 ![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(230).png?raw=true)
 
+- You can also categorize products by its category, Manufacture, Brand,Price and color
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(230).png?raw=true)
+
+
 - Review products photos, Description, features, customers reviews and add the products to card or whishlist
 ![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(232).png?raw=true)
 
