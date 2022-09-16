@@ -89,13 +89,13 @@ After the file has been uploaded we will need to extract the zip file
 - select extract and name the destination folder as . so that they can be on public_html folder
 - the file will be extracting to the public_html
 
-if the folder or not on public_html won't work, Make sure that your file and folder are moved to pblic_html.
+if the folder or not on public_html won't work, Make sure that your file and folder are moved to public_html.
 
 #### 2nd Method
 - Download unzipper here: https://github.com/ndeet/unzipper
-- Excract the folder on your local machine
+- Extract the folder on your local machine
 - Upload unzipper files in public_html folder
-- fter uploading all the files…you just need to visit yoursite.com/unzipper.php 
+- after uploading all the files…you just need to visit yoursite.com/unzipper.php 
 - Now Select the zip and click “Unzip Archive”
 - you can visit your public_html folder, your files are now extracted.
 - you can delete unzipper files and your unzip folder
