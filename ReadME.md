@@ -17,7 +17,7 @@ The system is still experiencing some issues due to php session. This system is 
 ![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(230).png?raw=true)
 
 - You can also categorize products by its category, Manufacture, Brand,Price and color
-![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(230).png?raw=true)
+![alt text](https://github.com/LomNtetha/Online-Electronics/blob/master/screenshots/Screenshot%20(260).png?raw=true)
 
 
 - Review products photos, Description, features, customers reviews and add the products to card or whishlist
