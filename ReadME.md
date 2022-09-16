@@ -1,5 +1,5 @@
 # Electonics Mangement E-commerce System
- https://lodetxelectronics.000webhostapp.
+ https://lodetxelectronics.000webhostapp.com/
 
 This is an e-commerce  PHP PDO based system that sells products online, the system
 selling Electronics accessories. It provides the user with a catalog of different product available for purchase in the store. In order to facilitate online purchase a shopping
